@@ -1,27 +1,29 @@
 body {
     overflow: hidden;
-    font-family: Consolas,monaco,monospace; 
-    background: linear-gradient(to right, #D1347B 30%, #093573 95%); /* Adiciona um gradiente de cor */
+    font-family: Consolas, monaco, monospace;
+    background: linear-gradient(to right, #D1347B 30%, #093573 95%);
+    /* Adiciona um gradiente de cor */
 }
 
-.navbar{
+.navbar {
     display: flex;
     justify-content: center;
     justify-items: center;
     background-color: rgba(9, 53, 115, 0.5);
 }
 
-.icon-logo-img, img{
+.icon-logo-img,
+img {
     margin-top: 1%;
     margin-bottom: 1%;
     margin-left: 1%;
     display: inline-block;
-   
+
 }
 
 .container1-quadrado {
     display: flex;
-    width: 100px; 
+    width: 100px;
     height: 100px;
     margin-bottom: 45px;
     margin-top: 5%;
@@ -29,26 +31,26 @@ body {
 
 .container2-quadrado {
     display: flex;
-    width: 100px; 
+    width: 100px;
     height: 100px;
     margin-bottom: 45px;
 }
 
 .container3-quadrado {
     display: flex;
-    width: 100px; 
+    width: 100px;
     height: 100px;
     margin-bottom: 3%;
 }
 
-.container{
-   display: inline-block;
-   padding: 10px;   
+.container {
+    display: inline-block;
+    padding: 10px;
 }
 
 .quadrado {
     justify-content: center;
-    align-items: flex-start; 
+    align-items: flex-start;
     width: 100px;
     height: 100px;
     background-color: rgba(9, 53, 115, 0.5);
@@ -61,7 +63,7 @@ body {
     flex-wrap: wrap;
 }
 
-.container-pai{
+.container-pai {
     display: flex-end;
     flex-direction: column;
     align-items: center;
@@ -73,15 +75,15 @@ body {
     order: 1;
     display: flex;
     margin-top: -8%;
-    justify-content: flex-end; 
+    justify-content: flex-end;
     align-items: center;
     margin-right: 10%;
 }
 
-.container-info-jogadores{
+.container-info-jogadores {
     order: 2;
     display: inline-block;
-    
+
     padding: 50px;
     border: 1px solid white;
     border-radius: 2%;
@@ -92,20 +94,20 @@ body {
     width: 20%;
 
     margin-top: -8%;
-    
+
 }
 
 
-.jogador1, 
-.jogador2, 
-.vencedor{
+.jogador1,
+.jogador2,
+.vencedor {
     color: white;
     font-size: 20px;
     display: flex;
 }
 
 
-button{
+button {
     background-color: transparent;
     font-size: 20px;
     margin-top: 5%;
@@ -116,13 +118,13 @@ button{
     border: 1px solid white;
 }
 
-.button-class{
+.button-class {
     border-radius: 10%;
 }
 
 
 
-.jogador{
+.jogador {
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -139,15 +141,14 @@ button{
     height: 150px;
 }
 
-p{
+p {
     margin-top: 30px;
 }
 
-.tituloTxt{
+.tituloTxt {
     display: flex;
     justify-content: center;
     align-items: center;
     text-align: center;
     color: rgb(255, 255, 245);
 }
-
